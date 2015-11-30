@@ -29,26 +29,31 @@
         style="@style/AppTheme.MyButtonStyle"
         android:text="Spotify streamer"
         android:id="@+id/btn_spotifyStreamerApp"
+        android:onClick="BtnClickSpotifyStreamer"
         />
     <Button
         style="@style/AppTheme.MyButtonStyle"
         android:text="Scores App"
         android:id="@+id/btn_scoresApp"
+        android:onClick="BtnClickScoresApp"
         />
     <Button
         style="@style/AppTheme.MyButtonStyle"
         android:text="Library App"
         android:id="@+id/btn_libraryApp"
+        android:onClick="BtnClickLibraryApp"
         />
     <Button
         style="@style/AppTheme.MyButtonStyle"
         android:text="Build it bigger"
         android:id="@+id/btn_buildItBiggerApp"
+        android:onClick="BtnClickBuildItBiggerApp"
         />
     <Button
         style="@style/AppTheme.MyButtonStyle"
         android:text="XYZ Reader"
         android:id="@+id/btn_xyzReaderApp"
+        android:onClick="BtnClickxyzReaderApp"
         />
     <Button
         style="@style/AppTheme.MyButtonStyle"
@@ -58,5 +63,6 @@
         android:background="@color/ownAppBtnColor"
         android:textColor="@color/ownAppBtnTextColor"
         android:id="@+id/btn_myOwnApp"
+        android:onClick="BtnClickmyOwnApp"
         />
 </LinearLayout>
